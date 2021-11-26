@@ -35,6 +35,5 @@ DataSchema.methods.isCorrectPassword = function (password, callback ){
         }
     })
 }
-
 const usuarios = mongoose.model('Usuarios',DataSchema);
 module.exports = usuarios;
